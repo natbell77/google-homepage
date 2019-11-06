@@ -1,7 +1,64 @@
+a {
+    font-family: Arial;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    padding: 0px 0px 0px 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .button {
     font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
     background-color: blue;
     color: white;
     padding: 5px;
     border-radius: 10%;
+}
+
+#upper-left-nav-container {
+    position:absolute;
+    margin: 7px 0 0 10px;
+    top: 0;
+    left: 0;
+}
+
+#upper-right-nav-container {
+    position:absolute;
+    margin: 7px 10px 0 0px;
+    position: absolute;
+    visibility: visible;
+    top: 0;
+    right: 0;
+}
+
+#logo-container {
+    height: 233px;
+    margin-top: 89px;
+    text-align: center;
+}
+
+.search-bar-container {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 24px;
+    border-color: #dfe1e5;
+    outline: 1px;
+    height: 44px;
+    width: 482px;
+    text-align: center;
+}
+
+.search-bar {
+    border:none;
+    height: 34px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    flex-basis: 100%;
+    width: 400px;
 }
